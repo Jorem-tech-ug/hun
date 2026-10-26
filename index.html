@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#124734">
+  <title>Seeds of Gold Junior School | School Portal</title>
+  <link rel="icon" href="assets/school-mark.svg" type="image/svg+xml">
+  <style>
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap');
+:root{--green:#124734;--green2:#1f6a4c;--gold:#e9b949;--ink:#1c2d26;--muted:#68776f;--paper:#fffdf8;--line:#dce5df;--soft:#eff6f0;--red:#9c2828}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 'DM Sans',Arial,sans-serif}a{color:var(--green2)}.topbar{height:auto;min-height:78px;padding:14px clamp(18px,5vw,72px);display:flex;align-items:center;justify-content:space-between;gap:20px;background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}.brand{display:flex;gap:10px;align-items:center;color:var(--green);text-decoration:none}.brand span{display:grid;line-height:1.25}.brand b{font-family:Manrope,sans-serif;font-size:1.02rem}.brand small{font-size:.75rem;color:var(--muted)}nav{display:flex;gap:25px}nav a{text-decoration:none;color:var(--ink);font-weight:600;font-size:.92rem}nav a:hover{color:var(--green2)}.menu-btn{display:none;background:none;border:0;font-size:1.5rem}.hero{padding:70px clamp(20px,7vw,100px);display:grid;grid-template-columns:1.05fr .95fr;gap:35px;align-items:center;background:linear-gradient(125deg,#f0f7ed,#fffdf8 70%);min-height:480px}.hero h1{font:800 clamp(2.2rem,5vw,4.3rem)/1.08 Manrope,sans-serif;letter-spacing:-.04em;color:var(--green);max-width:720px;margin:12px 0 18px}.hero p{font-size:1.08rem;max-width:550px;color:#52645a}.hero-art{width:100%;max-height:370px}.eyebrow{font-size:.76rem;font-weight:800;letter-spacing:.16em;color:#8b6915}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.btn{border:1px solid transparent;padding:11px 17px;border-radius:9px;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font:700 .94rem 'DM Sans',sans-serif;cursor:pointer}.primary{background:var(--green);color:white}.primary:hover{background:var(--green2)}.ghost{border-color:#aabdb0;background:white;color:var(--green)}.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:28px clamp(20px,7vw,100px)}.feature,.panel{border:1px solid var(--line);border-radius:14px;background:#fff;padding:22px;box-shadow:0 6px 20px #183c2510}.feature span{font-size:1.7rem}.feature h3{margin:8px 0 4px;color:var(--green)}.feature p,.section>p{color:var(--muted)}.section{padding:66px clamp(20px,7vw,100px)}.section h2{font:800 clamp(1.8rem,3vw,2.6rem)/1.2 Manrope,sans-serif;color:var(--green);margin:8px 0 15px}.split{display:grid;grid-template-columns:.9fr 1.1fr;gap:50px;align-items:start}.tint{background:#f1f7f1}.panel label{display:block;font-size:.86rem;font-weight:700;margin-bottom:14px}.panel input,.panel select,.panel textarea{display:block;width:100%;padding:11px 12px;margin-top:5px;border:1px solid #cbd8cf;border-radius:8px;background:#fff;font:inherit;color:var(--ink)}.panel input:focus,.panel select:focus,.panel textarea:focus{outline:2px solid #8bb99d;border-color:var(--green2)}.two{display:grid;grid-template-columns:1fr 1fr;gap:13px}.notice{padding:13px 15px;background:#fff5d8;border-left:4px solid var(--gold);border-radius:5px;margin:18px 0;color:#5d4b1a}.form-message{font-size:.88rem;color:var(--green2);overflow-wrap:anywhere}.form-message.error{color:var(--red)}.link-btn{background:none;border:0;text-decoration:underline;color:var(--green2);cursor:pointer;margin-top:12px;padding:5px}.checklist{padding-left:22px}.checklist li{margin:9px 0}.empty-state{padding:25px;border:1px dashed #afc6b4;border-radius:12px;color:var(--muted)}footer{padding:35px clamp(20px,7vw,100px);background:#103b2b;color:#e9f1eb}footer a{color:#ffe3a1}.footer-brand{display:flex;gap:10px;align-items:center}footer p{margin:8px 0}footer small{color:#b7cbbd}.hidden{display:none!important}.dashboard-head{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:20px}.dashboard-head h2{margin:5px 0}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:20px}.stat{padding:20px;border-radius:12px;background:#eaf4ec;border:1px solid #d2e3d5}.stat small{display:block;color:var(--muted)}.stat strong{font:800 2rem Manrope;color:var(--green)}.dashboard-columns{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:18px 0}.panel h3{color:var(--green);margin-top:0}.table-wrap{overflow-x:auto;margin:14px 0}table{width:100%;border-collapse:collapse;font-size:.9rem}th,td{text-align:left;padding:10px;border-bottom:1px solid var(--line);vertical-align:top}th{background:#f1f7f1;color:var(--green)}td select{min-width:120px;padding:8px;border:1px solid var(--line);border-radius:6px}.small-btn{border:1px solid #adc3b2;border-radius:6px;background:#f6faf6;padding:7px 10px;color:var(--green);cursor:pointer;font-weight:700}.subline{display:block;font-size:.78rem;color:var(--muted)}.child-card,.talent-row,.notice-item,.report-row{padding:13px 0;border-bottom:1px solid var(--line)}.child-card>span{display:block;color:var(--muted)}.notice-item small{display:block;color:var(--muted)}.notice-item p{margin:5px 0}.report-row{font-size:.9rem}.report-row p{margin:4px 0}.menu-btn{color:var(--green)}@media(max-width:760px){.topbar{flex-wrap:wrap}.menu-btn{display:block}nav{display:none;width:100%;flex-direction:column;gap:0}nav.open{display:flex}nav a{padding:10px 0;border-top:1px solid var(--line)}.hero{grid-template-columns:1fr;padding-top:45px}.hero-art{max-height:250px;grid-row:1}.feature-grid{grid-template-columns:1fr;padding-top:15px;padding-bottom:15px}.split{grid-template-columns:1fr;gap:25px}.section{padding-top:45px;padding-bottom:45px}.two{grid-template-columns:1fr;gap:0}.stats{grid-template-columns:1fr 1fr}.dashboard-columns{grid-template-columns:1fr}.dashboard-head{align-items:flex-start}.stat strong{font-size:1.6rem}}@media print{.topbar,footer,.btn,.small-btn,#portal,#admissions,.feature-grid{display:none!important}body{background:white}.section{padding:0}.panel{box-shadow:none;border:0}.dashboard-head{display:none}}
+
+
+  </style>
+  <link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#"><img src="assets/school-mark.svg" alt="" width="42" height="42"><span><b>Seeds of Gold</b><small>Junior School · Kitende</small></span></a>
+  <button id="menuBtn" class="menu-btn" aria-label="Open navigation">☰</button>
+  <nav id="nav"><a href="#home">Home</a><a href="#admissions">Admissions</a><a href="#calendar">Calendar</a><a href="#library">Library</a><a href="#portal">Portal</a></nav>
+</header>
+<main>
+  <section id="home" class="hero">
+    <div class="hero-copy"><span class="eyebrow">LEARN · GROW · SHINE</span><h1>Growing confident learners, one day at a time.</h1>
+      <p>A school information and learning portal for pupils, parents, teachers and administrators.</p>
+      <div class="actions"><a class="btn primary" href="#admissions">Apply for admission</a><a class="btn ghost" href="#portal">Sign in to portal</a></div>
+    </div>
+    <img class="hero-art" src="assets/school-illustration.svg" alt="Illustration of a school, books and a tree">
+  </section>
+  <section class="feature-grid">
+    <article class="feature"><span>📘</span><h3>Learning & reports</h3><p>Access report cards, assignments and learning resources through approved accounts.</p></article>
+    <article class="feature"><span>🗓️</span><h3>School calendar</h3><p>Keep up with term dates, events and important school notices.</p></article>
+    <article class="feature"><span>🌱</span><h3>Talent corner</h3><p>Approved student performances can be shared privately with school families.</p></article>
+  </section>
+  <section id="admissions" class="section split">
+    <div><span class="eyebrow">JOIN OUR SCHOOL</span><h2>Online admission enquiry</h2><p>Submit an enquiry. This starter form saves to Supabase only after you configure the project. The school must verify documents and complete admission in person.</p><div class="notice">Do not upload birth certificates or other sensitive documents until the school has approved the privacy and retention process.</div></div>
+    <form id="admissionForm" class="panel">
+      <label>Child's full name<input name="student_name" required maxlength="120"></label>
+      <div class="two"><label>Date of birth<input name="date_of_birth" type="date" required></label><label>Residence<input name="residence" required maxlength="160"></label></div>
+      <div class="two"><label>Parent/guardian name<input name="guardian_name" required maxlength="120"></label><label>Parent/guardian phone<input name="guardian_phone" required maxlength="40"></label></div>
+      <label>Parent/guardian email<input name="guardian_email" type="email" maxlength="160"></label>
+      <div class="two"><label>Class requested<select name="class_requested" required><option value="">Choose class</option><option>Baby</option><option>Middle</option><option>Top</option><option>P.1</option><option>P.2</option><option>P.3</option><option>P.4</option><option>P.5</option><option>P.6</option><option>P.7</option></select></label><label>Study arrangement<select name="study_mode" required><option value="">Choose</option><option>Day</option><option>Boarding</option></select></label></div>
+      <label>Additional notes<textarea name="notes" rows="3" maxlength="1000"></textarea></label>
+      <button class="btn primary" type="submit">Submit admission enquiry</button><p id="admissionMessage" class="form-message" aria-live="polite"></p>
+    </form>
+  </section>
+  <section id="calendar" class="section"><span class="eyebrow">PLAN AHEAD</span><h2>Term dates & important events</h2><div id="publicCalendar" class="empty-state">School-approved dates will appear here when published by an administrator.</div></section>
+  <section id="library" class="section tint"><span class="eyebrow">READ · PRACTISE · DISCOVER</span><h2>Library & assignments</h2><p>Nursery and primary resources are available to signed-in users according to their role and class. Sign in to see private resources.</p></section>
+  <section id="portal" class="section split">
+    <div><span class="eyebrow">SECURE SCHOOL ACCESS</span><h2>Portal sign in</h2><p>Use the account created or invited by the school. Parents should only see children linked to their account.</p><ul class="checklist"><li>Administrator dashboard</li><li>Teacher class and attendance tools</li><li>Parent reports and notifications</li><li>Private talent clips</li></ul></div>
+    <form id="loginForm" class="panel">
+      <label>Email address<input name="email" type="email" autocomplete="username" required></label>
+      <label>Password<input name="password" type="password" autocomplete="current-password" required></label>
+      <button class="btn primary" type="submit">Sign in</button><button id="resetPassword" type="button" class="link-btn">Forgot password?</button>
+      <p id="loginMessage" class="form-message" aria-live="polite"></p>
+    </form>
+  </section>
+  <section id="dashboard" class="section hidden">
+    <div class="dashboard-head"><div><span class="eyebrow">PRIVATE PORTAL</span><h2 id="welcomeTitle">Dashboard</h2><p id="roleLabel"></p></div><button id="signOut" class="btn ghost">Sign out</button></div>
+    <div id="dashboardContent"></div>
+  </section>
+</main>
+<footer><div class="footer-brand"><img src="assets/school-mark.svg" width="34" alt=""><b>Seeds of Gold Junior School</b></div><p>Kitende · School information portal</p><p><a id="emailLink" href="ojorem32@gmail.com">Email the school</a> · <a id="whatsappLink" href="0703202993" target="_blank" rel="noopener">WhatsApp the school</a></p></footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<script>
+
+/*
+  Paste your Supabase Project URL and publishable/anon key from:
+  Supabase Dashboard > Project Settings > API.
+  NEVER put a service_role key or database password in browser JavaScript.
+*/
+window.SUPABASE_URL = "https://wjxrjgtpsqwkkrxkyusv.supabase.co";
+window.SUPABASE_ANON_KEY = "sb_publishable_N92sz6ydOoYDG84bSeErEA_bZwa2dex";
+window.SCHOOL_EMAIL = "joremtech2@gmail.com";
+window.SCHOOL_WHATSAPP = "256703202993"; // digits only, country code included
+
+const supabaseClient = window.supabase.createClient(
+    SUPABASE_URL,
+    SUPABASE_ANON_KEY
+);
+
+</script>
+
+<script>
+
+  const CACHE='seeds-gold-shell-v1';const FILES=['./','./index.html','./assets/style.css','./assets/school-mark.svg','./assets/school-illustration.svg','./manifest.webmanifest'];self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(FILES))));self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k))))));self.addEventListener('fetch',e=>{if(e.request.method!=='GET'||new URL(e.request.url).origin!==location.origin)return;e.respondWith(caches.match(e.request).then(cached=>cached||fetch(e.request).catch(()=>caches.match('./index.html'))));});
+
+(() => {
+  const configured = window.SUPABASE_URL?.startsWith("https://") &&
+    window.SUPABASE_ANON_KEY && !window.SUPABASE_ANON_KEY.includes("PASTE_");
+  const db = configured && window.supabase
+    ? window.supabase.createClient(window.SUPABASE_URL, window.SUPABASE_ANON_KEY, {
+        auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true }
+      }) : null;
+  const $ = (s) => document.querySelector(s);
+  const say = (id, message, bad=false) => { const el=$(id); if(el){el.textContent=message;el.classList.toggle("error",bad);} };
+  const safe = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const ready = () => { if(!db) { alert("Add your Supabase URL and publishable/anon key in js/config.js first."); return false; } return true; };
+  const roleNames = {admin:"Administrator",teacher:"Teacher",parent:"Parent"};
+  $("#menuBtn").addEventListener("click",()=>$("#nav").classList.toggle("open"));
+  $("#emailLink").href = window.SCHOOL_EMAIL?.includes("@") ? `mailto:${window.SCHOOL_EMAIL}` : "mailto:";
+  $("#emailLink").textContent = window.SCHOOL_EMAIL?.includes("@") ? window.SCHOOL_EMAIL : "Email the school";
+  if (/^\d{10,15}$/.test(window.SCHOOL_WHATSAPP || "")) $("#whatsappLink").href = `https://wa.me/${window.SCHOOL_WHATSAPP}`;
+
+  $("#admissionForm").addEventListener('submit', async (e) => {
+  e.preventDefault();
+  if (!ready()) return;
+  const form = e.currentTarget;
+  const f = new FormData(form);
+  const button = form.querySelector('button');
+  const orig = button ? button.textContent : '';
+  try {
+    if (button) { button.disabled = true; button.textContent = 'Submitting...'; }
+    say("#admissionMessage", "Submitting your enquiry...", "info");
+    const payload = Object.fromEntries(f.entries());
+    if (payload.notes) payload.additional_notes = payload.notes;
+    const { error } = await supabaseClient.from('admission_enquiries').insert([payload]);
+    if (error) throw error;
+    say("#admissionMessage", "✅ Thank you! Your enquiry has been received. We will contact you soon.", "success");
+    form.reset();
+  } catch (err) {
+    say("#admissionMessage", "❌ " + (err.message || err), "error");
+  } finally {
+    if (button) { button.disabled = false; button.textContent = orig; }
+  }
+});
+
+  
+$("#loginForm").addEventListener("submit", async e => {
+  e.preventDefault();
+
+  if (!ready()) return;
+
+  const form = e.currentTarget;
+  const f = new FormData(form);
+  const email = String(f.get("email") || "").trim();
+  const password = String(f.get("password") || "");
+  const button = form.querySelector('button[type="submit"], button:not([type])');
+
+  try {
+    say("#loginMessage", "Signing in…");
+
+    if (button) {
+      button.disabled = true;
+      button.textContent = "Signing in…";
+    }
+
+    const { data, error } = await db.auth.signInWithPassword({
+      email,
+      password
+    });
+
+    if (error) {
+      console.error("Supabase sign-in error:", error);
+      say("#loginMessage", error.message, true);
+      return;
+    }
+
+    console.log("Supabase sign-in succeeded:", data.user?.id);
+
+    await renderDashboard(data.user);
+
+  } catch (err) {
+    console.error("Unexpected sign-in error:", err);
+    say(
+      "#loginMessage",
+      "Sign-in encountered an error: " + (err.message || "Unknown error"),
+      true
+    );
+  } finally {
+    if (button) {
+      button.disabled = false;
+      button.textContent = "Sign In";
+    }
+  }
+});
+
+  $("#resetPassword").addEventListener("click", async () => {
+    if(!ready()) return;
+    const email = $("#loginForm [name=email]").value.trim();
+    if(!email) return say("#loginMessage","Enter your email first, then choose Forgot password.",true);
+    const {error}=await db.auth.resetPasswordForEmail(email,{redirectTo:location.origin+location.pathname});
+    say("#loginMessage",error ? "Could not send reset email. Check Supabase email settings." : "If the account exists, password reset instructions will be sent.");
+  });
+  $("#signOut").addEventListener("click", async()=>{ if(db) await db.auth.signOut(); $("#dashboard").classList.add("hidden"); $("#portal").classList.remove("hidden"); });
+  async function renderDashboard(user) {
+    $("#portal").classList.add("hidden"); $("#dashboard").classList.remove("hidden");
+    $("#welcomeTitle").textContent = "Your dashboard"; $("#roleLabel").textContent = "Loading account permissions…";
+    const {data:profile,error}=await db.from("profiles").select("display_name,role").eq("id",user.id).maybeSingle();
+    if(error || !profile) { $("#roleLabel").textContent="Account profile not found. Ask the administrator to create/assign your profile."; $("#dashboardContent").innerHTML='<div class="notice">For security, new users cannot choose their own role. An administrator must assign it.</div>'; return; }
+    $("#welcomeTitle").textContent = `Welcome${profile.display_name ? ", "+profile.display_name : ""}`;
+    $("#roleLabel").textContent = roleNames[profile.role] || "School user";
+    if(profile.role==="admin") await adminView();
+    else if(profile.role==="teacher") await teacherView(user);
+    else if(profile.role==="parent") await parentView(user);
+    else $("#dashboardContent").innerHTML='<div class="notice">Your account role is not configured. Contact the administrator.</div>';
+  }
+  async function adminView() {
+    const [students, staff, applications, today] = await Promise.all([
+      db.from("students").select("id",{count:"exact",head:true}).eq("active",true),
+      db.from("profiles").select("id",{count:"exact",head:true}).eq("role","teacher").eq("active",true),
+      db.from("admission_enquiries").select("id",{count:"exact",head:true}).eq("status","submitted"),
+      db.from("attendance_records").select("id",{count:"exact",head:true}).eq("attendance_date",new Date().toISOString().slice(0,10))
+    ]);
+    $("#dashboardContent").innerHTML = `
+      <div class="stats"><div class="stat"><small>Active students</small><strong>${students.count ?? "—"}</strong></div><div class="stat"><small>Active teachers</small><strong>${staff.count ?? "—"}</strong></div><div class="stat"><small>New applications</small><strong>${applications.count ?? "—"}</strong></div><div class="stat"><small>Attendance records today</small><strong>${today.count ?? "—"}</strong></div></div>
+      <div class="dashboard-columns"><section class="panel"><h3>Recent admission enquiries</h3><div id="applicationsList">Loading…</div></section><section class="panel"><h3>Publish a school notice</h3><form id="noticeForm"><label>Title<input name="title" required maxlength="160"></label><label>Message<textarea name="body" required maxlength="3000"></textarea></label><label>Audience<select name="audience"><option value="all">All portal users</option><option value="parents">Parents</option><option value="teachers">Teachers</option></select></label><button class="btn primary">Publish notice</button><p id="noticeMessage" class="form-message"></p></form></section></div>
+      <div class="panel"><h3>Attendance summary</h3><p>Use the daily/monthly filters and export/print after implementing the report query below. Do not use the displayed record count as an attendance percentage.</p><label>Month<input id="monthFilter" type="month" value="${new Date().toISOString().slice(0,7)}"></label><button id="loadMonthly" class="btn ghost">Load monthly totals</button><div id="monthlySummary"></div></div>`;
+    const {data:apps}=await db.from("admission_enquiries").select("id,student_name,class_requested,guardian_name,guardian_phone,created_at,status").order("created_at",{ascending:false}).limit(10);
+    $("#applicationsList").innerHTML = apps?.length ? `<div class="table-wrap"><table><thead><tr><th>Applicant</th><th>Class</th><th>Guardian</th><th>Status</th><th>Action</th></tr></thead><tbody>${apps.map(a=>`<tr><td>${safe(a.student_name)}</td><td>${safe(a.class_requested)}</td><td>${safe(a.guardian_name)}<br>${safe(a.guardian_phone)}</td><td>${safe(a.status)}</td><td><button class="small-btn" data-app="${a.id}">Mark reviewing</button></td></tr>`).join("")}</tbody></table></div>` : "No applications yet.";
+    $("#applicationsList").querySelectorAll("[data-app]").forEach(b=>b.addEventListener("click",async()=>{const {error}=await db.from("admission_enquiries").update({status:"reviewing"}).eq("id",b.dataset.app); if(error) alert("Could not update status; check policies."); else await adminView();}));
+    $("#noticeForm").addEventListener("submit",async e=>{e.preventDefault();const p=Object.fromEntries(new FormData(e.currentTarget));const {error}=await db.from("announcements").insert({title:p.title,body:p.body,audience:p.audience,created_by:(await db.auth.getUser()).data.user.id});say("#noticeMessage",error?"Could not publish notice. Check SQL policies.":"Notice published.",!!error);if(!error)e.currentTarget.reset();});
+    $("#loadMonthly").addEventListener("click",async()=>{const month=$("#monthFilter").value;if(!month)return;const start=month+"-01";const end=new Date(Number(month.slice(0,4)),Number(month.slice(5,7)),1).toISOString().slice(0,10);const {data,error}=await db.from("attendance_records").select("status,attendance_date").gte("attendance_date",start).lt("attendance_date",end);if(error){$("#monthlySummary").textContent="Could not load totals; check permissions.";return;}const counts={present:0,absent:0,late:0};(data||[]).forEach(r=>counts[r.status]=(counts[r.status]||0)+1);$("#monthlySummary").innerHTML=`<p>Records in month: ${(data||[]).length}. Present: ${counts.present||0}; absent: ${counts.absent||0}; late: ${counts.late||0}.</p>`;});
+  }
+
+await renderAcademicTools("admin");
+
+async function renderAcademicTools(role) {
+  const host = document.querySelector("#dashboardContent");
+
+  host.insertAdjacentHTML("beforeend", `
+    <section class="panel" id="academicPanel">
+      <h3>Academic Reports Management</h3>
+      <p>Manage subjects, assessments and pupil marks.</p>
+
+      ${role === "admin" ? `
+        <form id="subjectForm">
+          <label>New subject
+            <input name="name" required maxlength="100">
+          </label>
+          <button class="btn primary">Add subject</button>
+          <p id="subjectMessage" class="form-message"></p>
+        </form>
+      ` : ""}
+
+      <hr>
+
+      <form id="assessmentForm">
+        <label>Class
+          <select name="class_id" id="academicClass" required>
+            <option value="">Loading classes…</option>
+          </select>
+        </label>
+
+        <label>Subject
+          <select name="subject_id" id="academicSubject" required>
+            <option value="">Loading subjects…</option>
+          </select>
+        </label>
+
+        <label>Term
+          <select name="term" required>
+            <option value="Term 1">Term 1</option>
+            <option value="Term 2">Term 2</option>
+            <option value="Term 3">Term 3</option>
+          </select>
+        </label>
+
+        <label>Academic year
+          <input name="academic_year" type="number"
+            min="2020" max="2100" value="${new Date().getFullYear()}" required>
+        </label>
+
+        <label>Assessment name
+          <input name="assessment_name" value="End of term" required>
+        </label>
+
+        <label>Maximum mark
+          <input name="max_score" type="number" min="1"
+            step="0.01" value="100" required>
+        </label>
+
+        <button class="btn primary">Create assessment</button>
+        <p id="assessmentMessage" class="form-message"></p>
+      </form>
+
+      <hr>
+
+      <label>Select assessment
+        <select id="assessmentPick">
+          <option value="">Choose an assessment</option>
+        </select>
+      </label>
+
+      <button id="loadAcademicRoster" class="btn ghost">
+        Load pupils and marks
+      </button>
+
+      <div id="academicRoster"></div>
+    </section>
+  `);
+
+  const currentUser = (await db.auth.getUser()).data.user;
+
+  async function loadChoices() {
+    const [classesResult, subjectsResult] = await Promise.all([
+      db.from("classes").select("id,name").order("name"),
+      db.from("academic_subjects")
+        .select("id,name").eq("active", true).order("name")
+    ]);
+
+    if (classesResult.error || subjectsResult.error) {
+      alert("Could not load classes or subjects. Check Supabase RLS.");
+      return;
+    }
+
+    document.querySelector("#academicClass").innerHTML =
+      `<option value="">Choose class</option>` +
+      (classesResult.data || []).map(c =>
+        `<option value="${c.id}">${safe(c.name)}</option>`
+      ).join("");
+
+    document.querySelector("#academicSubject").innerHTML =
+      `<option value="">Choose subject</option>` +
+      (subjectsResult.data || []).map(s =>
+        `<option value="${s.id}">${safe(s.name)}</option>`
+      ).join("");
+  }
+
+  async function loadAssessments() {
+    const { data, error } = await db
+      .from("academic_assessments")
+      .select("id,assessment_name,term,academic_year,max_score,subject:academic_subjects(name),class:classes(name)")
+      .order("academic_year", { ascending: false });
+
+    const pick = document.querySelector("#assessmentPick");
+
+    if (error) {
+      pick.innerHTML = `<option value="">Could not load assessments</option>`;
+      return;
+    }
+
+    pick.innerHTML = `<option value="">Choose an assessment</option>` +
+      (data || []).map(a => `
+        <option value="${a.id}">
+          ${safe(a.class?.name)} — ${safe(a.subject?.name)} —
+          ${safe(a.term)} ${a.academic_year} —
+          ${safe(a.assessment_name)}
+        </option>
+      `).join("");
+  }
+
+  const subjectForm = document.querySelector("#subjectForm");
+
+  if (subjectForm) {
+    subjectForm.addEventListener("submit", async e => {
+      e.preventDefault();
+
+      const name = new FormData(subjectForm).get("name").trim();
+      const { error } = await db.from("academic_subjects").insert({ name });
+
+      say("#subjectMessage",
+        error ? "Could not add subject: " + error.message : "Subject added.",
+        !!error
+      );
+
+      if (!error) {
+        subjectForm.reset();
+        await loadChoices();
+      }
+    });
+  }
+
+  document.querySelector("#assessmentForm")
+    .addEventListener("submit", async e => {
+      e.preventDefault();
+
+      const f = Object.fromEntries(new FormData(e.currentTarget));
+      const payload = {
+        class_id: f.class_id,
+        subject_id: f.subject_id,
+        term: f.term,
+        academic_year: Number(f.academic_year),
+        assessment_name: f.assessment_name.trim(),
+        max_score: Number(f.max_score),
+        created_by: currentUser.id
+      };
+
+      const { error } = await db.from("academic_assessments").insert(payload);
+
+      say("#assessmentMessage",
+        error ? "Could not create assessment: " + error.message :
+          "Assessment created successfully.",
+        !!error
+      );
+
+      if (!error) await loadAssessments();
+    });
+
+  document.querySelector("#loadAcademicRoster")
+    .addEventListener("click", async () => {
+      const assessmentId =
+        document.querySelector("#assessmentPick").value;
+
+      const roster = document.querySelector("#academicRoster");
+
+      if (!assessmentId) {
+        roster.textContent = "Choose an assessment first.";
+        return;
+      }
+
+      const { data: assessment, error: assessmentError } = await db
+        .from("academic_assessments")
+        .select("id,class_id,max_score")
+        .eq("id", assessmentId)
+        .single();
+
+      if (assessmentError) {
+        roster.textContent = "Could not load assessment.";
+        return;
+      }
+
+      const [studentsResult, marksResult] = await Promise.all([
+        db.from("students")
+          .select("id,full_name,student_code")
+          .eq("class_id", assessment.class_id)
+          .eq("active", true)
+          .order("full_name"),
+        db.from("academic_marks")
+          .select("student_id,score,teacher_comment")
+          .eq("assessment_id", assessmentId)
+      ]);
+
+      if (studentsResult.error || marksResult.error) {
+        roster.textContent =
+          "Could not load pupils or marks. Check table access and RLS.";
+        return;
+      }
+
+      const oldMarks = Object.fromEntries(
+        (marksResult.data || []).map(m => [m.student_id, m])
+      );
+
+      roster.innerHTML = studentsResult.data?.length ? `
+        <form id="academicMarksForm">
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr><th>Pupil</th><th>Mark / ${assessment.max_score}</th></tr>
+              </thead>
+              <tbody>
+                ${studentsResult.data.map(s => {
+                  const mark = oldMarks[s.id];
+                  return `
+                    <tr>
+                      <td>${safe(s.full_name)}</td>
+                      <td>
+                        <input type="number" name="${s.id}"
+                          min="0" max="${assessment.max_score}"
+                          step="0.01" required
+                          value="${mark ? mark.score : ""}">
+                      </td>
+                    </tr>
+                  `;
+                }).join("")}
+              </tbody>
+            </table>
+          </div>
+          <button class="btn primary">Save marks</button>
+          <p id="marksMessage" class="form-message"></p>
+        </form>
+      ` : "No active pupils found in this class.";
+
+      const marksForm = document.querySelector("#academicMarksForm");
+      if (!marksForm) return;
+
+      marksForm.addEventListener("submit", async e => {
+        e.preventDefault();
+
+        const rows = [...new FormData(marksForm).entries()].map(
+          ([student_id, score]) => ({
+            assessment_id: assessmentId,
+            student_id,
+            score: Number(score),
+            updated_by: currentUser.id
+          })
+        );
+
+        if (rows.some(r =>
+          !Number.isFinite(r.score) ||
+          r.score < 0 ||
+          r.score > Number(assessment.max_score)
+        )) {
+          say("#marksMessage", "One or more marks are outside the allowed range.", true);
+          return;
+        }
+
+        const { error } = await db.from("academic_marks")
+          .upsert(rows, { onConflict: "assessment_id,student_id" });
+
+        say("#marksMessage",
+          error ? "Could not save marks: " + error.message :
+            "Marks saved successfully.",
+          !!error
+        );
+      });
+    });
+
+  await loadChoices();
+  await loadAssessments();
+}
+
+
+  async function teacherView(user) {
+    const {data:classes,error}=await db.from("classes").select("id,name,level").order("sort_order");
+    if(error){$("#dashboardContent").innerHTML='<div class="notice">Could not load classes. Ask the administrator to check your permissions.</div>';return;}
+    $("#dashboardContent").innerHTML=`<div class="panel"><h3>Take class attendance</h3><label>Class<select id="classPick"><option value="">Choose class</option>${(classes||[]).map(c=>`<option value="${c.id}">${safe(c.name)}</option>`).join("")}</select></label><label>Date<input id="attDate" type="date" value="${new Date().toISOString().slice(0,10)}"></label><button id="loadRoster" class="btn primary">Load class roster</button><div id="roster"></div></div><div class="panel"><h3>Teacher notices</h3><div id="teacherNotices">Loading…</div></div>`;
+    $("#loadRoster").addEventListener("click",async()=>{const cid=$("#classPick").value,date=$("#attDate").value;if(!cid||!date)return;const {data:students,error}=await db.from("students").select("id,student_code,full_name").eq("class_id",cid).eq("active",true).order("full_name");if(error){$("#roster").textContent="Unable to load students. Check class assignment and RLS.";return;}const {data:existing}=await db.from("attendance_records").select("student_id,status").eq("class_id",cid).eq("attendance_date",date);const old=Object.fromEntries((existing||[]).map(r=>[r.student_id,r.status]));$("#roster").innerHTML=students?.length?`<form id="attendanceForm"><div class="table-wrap"><table><thead><tr><th>Student</th><th>Attendance</th></tr></thead><tbody>${students.map(s=>`<tr><td>${safe(s.full_name)}<small class="subline">${safe(s.student_code)}</small></td><td><select name="${s.id}"><option value="present" ${old[s.id]==="present"?"selected":""}>Present</option><option value="absent" ${old[s.id]==="absent"?"selected":""}>Absent</option><option value="late" ${old[s.id]==="late"?"selected":""}>Late</option></select></td></tr>`).join("")}</tbody></table></div><button class="btn primary">Save attendance</button><p id="attendanceMessage" class="form-message"></p></form>`:"No active students found in this class.";
+      const form=$("#attendanceForm");if(form)form.addEventListener("submit",async e=>{e.preventDefault();const rows=[...new FormData(form).entries()].map(([student_id,status])=>({student_id,class_id:cid,attendance_date:date,status,marked_by:user.id}));const {error}=await db.from("attendance_records").upsert(rows,{onConflict:"student_id,attendance_date"});say("#attendanceMessage",error?"Could not save attendance. Check your class permissions.":"Attendance saved.",!!error);});
+    });
+    await loadNotices("#teacherNotices","teachers");
+  }
+
+await renderAcademicTools("teacher");
+
+  async function parentView(user) {
+    $("#dashboardContent").innerHTML='<div class="dashboard-columns"><section class="panel"><h3>My children</h3><div id="childrenList">Loading…</div></section><section class="panel"><h3>Notifications & school notices</h3><div id="parentNotices">Loading…</div></section></div><section class="panel"><h3>Private talent corner</h3><div id="talentList">Loading…</div><p class="subline">Only approved clips are shown to signed-in school families. Do not share links publicly.</p></section>';
+    const {data:links,error}=await db.from("parent_students").select("student:students(id,full_name,student_code,class:classes(name))").eq("parent_id",user.id);
+    $("#childrenList").innerHTML=error?"Could not load children. Ask the administrator to link your account.":links?.length?links.map(x=>`<div class="child-card"><b>${safe(x.student?.full_name)}</b><span>${safe(x.student?.class?.name||"Class not assigned")}</span><button class="small-btn" data-child="${x.student?.id}">View reports & attendance</button><div id="child-${x.student?.id}"></div></div>`).join(""):"No children linked to this account yet.";
+    $("#childrenList").querySelectorAll("[data-child]").forEach(b=>b.addEventListener("click",async()=>{const id=b.dataset.child;const target=$("#child-"+id);const [reports,att]=await Promise.all([db.from("report_cards").select("id,term,academic_year,average,grade,teacher_comment,published").eq("student_id",id).eq("published",true).order("academic_year",{ascending:false}),db.from("attendance_records").select("attendance_date,status").eq("student_id",id).order("attendance_date",{ascending:false}).limit(30)]);target.innerHTML=`<h4>Published reports</h4>${reports.data?.length?reports.data.map(r=>`<div class="report-row">${safe(r.academic_year)} · ${safe(r.term)} · Average: ${safe(r.average)} · Grade: ${safe(r.grade)} ${r.teacher_comment?`<p>${safe(r.teacher_comment)}</p>`:""}<button class="small-btn" onclick="window.print()">Print page</button></div>`).join(""):"No published reports."}<h4>Recent attendance</h4>${att.data?.length?att.data.map(a=>`<p>${safe(a.attendance_date)} — ${safe(a.status)}</p>`).join(""):"No attendance records."}`;}));
+    await loadNotices("#parentNotices","parents");
+    const {data:t}=await db.from("talent_clips").select("id,title,description,storage_path,created_at").eq("approved",true).order("created_at",{ascending:false});
+    $("#talentList").innerHTML=t?.length?t.map(v=>`<div class="talent-row"><b>${safe(v.title)}</b><p>${safe(v.description)}</p><button class="small-btn" data-talent="${safe(v.storage_path)}">Open private clip</button></div>`).join(""):"No approved clips have been published.";
+    $("#talentList").querySelectorAll("[data-talent]").forEach(b=>b.addEventListener("click",async()=>{const {data,error}=await db.storage.from("talent-private").createSignedUrl(b.dataset.talent,60);if(error){alert("Could not open clip. Ask the school administrator.");return;}window.open(data.signedUrl,"_blank","noopener");}));
+  }
+  async function loadNotices(target,audience) {const {data,error}=await db.from("announcements").select("title,body,created_at,audience").in("audience",["all",audience]).order("created_at",{ascending:false}).limit(20);$(target).innerHTML=error?"Could not load notices.":data?.length?data.map(n=>`<article class="notice-item"><b>${safe(n.title)}</b><small>${safe(new Date(n.created_at).toLocaleString())}</small><p>${safe(n.body)}</p></article>`).join(""):"No notices yet.";}
+  if(db) db.auth.getSession().then(({data})=>{if(data.session)renderDashboard(data.session.user);});
+  if("serviceWorker" in navigator && location.protocol.startsWith("http")) navigator.serviceWorker.register("service-worker.js").catch(()=>{});
+})();
+
+
+function calculateAverage(scores) {
+  if (!scores.length) return null;
+
+  const total = scores.reduce((sum, score) => sum + score, 0);
+  return total / scores.length;
+}
+
+function gradeFromPercentage(percent) {
+  // EXAMPLE ONLY — replace with the school's approved scale.
+  if (percent >= 80) return "A";
+  if (percent >= 70) return "B";
+  if (percent >= 60) return "C";
+  if (percent >= 50) return "D";
+  return "E";
+}
+
+function rankPupils(pupils) {
+  const sorted = [...pupils].sort(
+    (a, b) => b.average - a.average
+  );
+
+  let previousAverage = null;
+  let position = 0;
+
+  return sorted.map((pupil, index) => {
+    if (pupil.average !== previousAverage) {
+      position = index + 1;
+      previousAverage = pupil.average;
+    }
+
+    return { ...pupil, position };
+  });
+}
+
+
+</script>
+
+</body></html>
